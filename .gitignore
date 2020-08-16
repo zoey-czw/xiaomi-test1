@@ -1,0 +1,14 @@
+css
+data
+image
+node_modules
+pages
+rev
+sass
+script
+gulpfile-build.js
+gulpfile-dev.js
+gulpfile.js
+package-lock.json
+package.json
+test.html
