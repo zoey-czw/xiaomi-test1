@@ -1,0 +1,190 @@
+{
+    "0": [{
+        "title":"小米10至尊纪念版",
+        "price":"5299元起",
+        "imgUrl":"../image/header1.jpg"
+    },{
+        "title":"小米10Pro",
+        "price":"4999元起",
+        "imgUrl":"../image/header2.jpg"
+    },
+    {
+        "title":"小米10",
+        "price":"3699元起",
+        "imgUrl":"../image/header3.jpg"
+    },{
+        "title":"小米10青春版",
+        "price":"5299元起",
+        "imgUrl":"../image/header4.jpg"
+    },{
+        "title":"小米MIX Alpha",
+        "price":"19999元起",
+        "imgUrl":"../image/header5.jpg"
+    },{
+        "title":"小米MIX Alpha",
+        "price":"19999元起",
+        "imgUrl":"../image/header15.jpg"
+    }],
+
+    "1": [{
+        "title":"Readmi 至尊纪念版",
+        "price":"1999元起",
+        "imgUrl":"../image/header6.jpg"
+    },{
+        "title":"小米10Pro",
+        "price":"4959元起",
+        "imgUrl":"../image/header7.jpg"
+    },
+    {
+        "title":"小米10",
+        "price":"3209元起",
+        "imgUrl":"../image/header4.jpg"
+    },{
+        "title":"小米10青春版",
+        "price":"5009元起",
+        "imgUrl":"../image/header2.jpg"
+    },{
+        "title":"小米MIX Alpha",
+        "price":"19999元起",
+        "imgUrl":"../image/header3.jpg"
+    },{
+        "title":"小米MIX",
+        "price":"1999元起",
+        "imgUrl":"../image/header5.jpg"
+    }],
+
+    "2": [{
+        "title":"小米10至尊纪念版",
+        "price":"5219元起",
+        "imgUrl":"../image/header8.jpg"
+    },{
+        "title":"小米10Pro",
+        "price":"1999元起",
+        "imgUrl":"../image/header2.jpg"
+    },
+    {
+        "title":"小米电视MAX",
+        "price":"3699元起",
+        "imgUrl":"../image/header10.jpg"
+    },{
+        "title":"小米电视",
+        "price":"5299元起",
+        "imgUrl":"../image/header2.jpg"
+    },{
+        "title":"智能电视",
+        "price":"1889元起",
+        "imgUrl":"../image/header1.jpg"
+    },{
+        "title":"小米MIX Alpha",
+        "price":"19999元起",
+        "imgUrl":"../image/header5.jpg"
+    }],
+
+    "3": [{
+        "title":"小米10至尊纪念版",
+        "price":"5299元起",
+        "imgUrl":"../image/header1.jpg"
+    },{
+        "title":"小米10Pro",
+        "price":"4999元起",
+        "imgUrl":"../image/header2.jpg"
+    },
+    {
+        "title":"小米10",
+        "price":"3699元起",
+        "imgUrl":"../image/header3.jpg"
+    },{
+        "title":"小米10青春版",
+        "price":"5299元起",
+        "imgUrl":"../image/header4.jpg"
+    },{
+        "title":"小米MIX Alpha",
+        "price":"19999元起",
+        "imgUrl":"../image/header5.jpg"
+    },{
+        "title":"小米MIX Alpha",
+        "price":"19999元起",
+        "imgUrl":"../image/header15.jpg"
+    }],
+
+    "4": [{
+        "title":"Readmi 至尊纪念版",
+        "price":"1999元起",
+        "imgUrl":"../image/header6.jpg"
+    },{
+        "title":"小米10Pro",
+        "price":"4959元起",
+        "imgUrl":"../image/header7.jpg"
+    },
+    {
+        "title":"小米10",
+        "price":"3209元起",
+        "imgUrl":"../image/header4.jpg"
+    },{
+        "title":"小米10青春版",
+        "price":"5009元起",
+        "imgUrl":"../image/header8.jpg"
+    },{
+        "title":"小米MIX Alpha",
+        "price":"19999元起",
+        "imgUrl":"../image/header3.jpg"
+    },{
+        "title":"小米MIX",
+        "price":"1999元起",
+        "imgUrl":"../image/header5.jpg"
+    }],
+
+    "5": [{
+        "title":"小米10至尊纪念版",
+        "price":"5219元起",
+        "imgUrl":"../image/header1.jpg"
+    },{
+        "title":"小米10Pro",
+        "price":"1999元起",
+        "imgUrl":"../image/header16.jpg"
+    },
+    {
+        "title":"小米电视MAX",
+        "price":"3699元起",
+        "imgUrl":"../image/header10.jpg"
+    },{
+        "title":"小米电视",
+        "price":"5299元起",
+        "imgUrl":"../image/header12.jpg"
+    },{
+        "title":"智能电视",
+        "price":"1889元起",
+        "imgUrl":"../image/header1.jpg"
+    },{
+        "title":"智能电视",
+        "price":"1889元起",
+        "imgUrl":"../image/header11.jpg"
+    }],
+
+    "6": [{
+        "title":"小米10至尊纪念版",
+        "price":"5219元起",
+        "imgUrl":"../image/header10.jpg"
+    },{
+        "title":"小米10Pro",
+        "price":"1999元起",
+        "imgUrl":"../image/header16.jpg"
+    },
+    {
+        "title":"小米电视MAX",
+        "price":"3699元起",
+        "imgUrl":"../image/header10.jpg"
+    },{
+        "title":"小米电视",
+        "price":"5299元起",
+        "imgUrl":"../image/header11.jpg"
+    },{
+        "title":"智能电视",
+        "price":"1889元起",
+        "imgUrl":"../image/header15.jpg"
+    },{
+        "title":"智能电视",
+        "price":"1889元起",
+        "imgUrl":"../image/header1.jpg"
+    }]
+}

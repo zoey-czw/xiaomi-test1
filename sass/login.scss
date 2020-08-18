@@ -1,0 +1,279 @@
+// <!-- 头部 小米商城 -->
+.header {
+    width: 1152px;
+    height: 50px;
+    margin: 25px auto;
+    overflow: hidden;
+    font-family: "微软雅黑";
+    &>div {
+        float: left;
+    }
+    img {
+        height: 48px;
+        width: 48px;
+        background-color: #f75d17;
+    }
+    .header-text {
+        margin-left: 22px;
+        margin-top: -2px;
+        h1 {
+            color: #333;
+            font-size: 30px;
+            line-height: 30px;
+        }
+        p {
+            font-size: 10px;
+            color: #858585;
+            margin-top: 6px;
+        }
+    }
+}
+
+//登陆部分
+.mainWarp {
+    width: 100%;
+    background-color: #e7ffff;
+    .main {
+        width: 1152px;
+        margin: 0 auto;
+        background: url('../image/login1.png') no-repeat center;
+        padding-top: 1px;
+        &:after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+            overflow: hidden;
+            visibility: hidden;
+        }
+        .box {
+            height: 556px;
+            width: 346px;
+            padding: 0 32px;
+            background-color: #fff;
+            margin-left: 733px;
+            margin-top: 32px;
+            // 选择登陆方式
+            .choose-login {
+                margin-top: 6px;
+                line-height: 74px;
+                font-size: 22px;
+                color: #737373;
+                width: 348px;
+                text-align: center;
+                position: relative;
+                span {
+                    display: inline-block;
+                    width: 170px;
+                    cursor: pointer;
+                    &:hover {
+                        color: #f75d17;
+                    }
+                }
+                .user-login::after {
+                    content: '';
+                    position: absolute;
+                    height: 30px;
+                    width: 2px;
+                    background-color: #e0e0e0;
+                    top: 22px;
+                    left: 173px;
+                }
+            }
+            .current {
+                color: #f75d17;
+            }
+            // <!-- 账号登录界面 -->
+            .user-message {
+                font-size: 12px;
+                color: #969696;
+                text-align: center;
+                position: relative;
+                .replaceOld {
+                    .user,.passW {
+                        height: 48px;
+                        width: 332px;
+                        border: 1px solid #e0e0e0;
+                        margin-bottom: 14px;
+                        padding-left: 14px;
+                        color: #969696;
+                    }
+                    .passW {
+                        margin-bottom: 12px;
+                    }
+                }
+                .replaceNew {
+                    .user2,.passW2 {
+                        float: left;
+                        height: 48px;
+                        width: 332px;
+                        border: 1px solid #e0e0e0;
+                        margin-bottom: 14px;
+                        padding-left: 14px;
+                        color: #969696;
+                    i {
+                        float: left;
+                        height: 50px;
+                        width: 58px;
+                        line-height: 50px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #333;
+                        border: 1px solid #e0e0e0;
+                    }
+                    }
+                    p:nth-child(1) {
+                        width: 400px;
+                        overflow: hidden;
+                        .user2, {
+                            width: 272px;
+                            height: 48px;
+                            border-left: 1px solid #fff;
+                        }
+                        i {
+                            float: left;
+                            height: 50px;
+                            width: 58px;
+                            line-height: 50px;
+                            text-align: center;
+                            font-size: 14px;
+                            color: #333;
+                            border: 1px solid #e0e0e0;
+                        }
+                    }
+                    p:nth-child(2) {
+                        width: 400px;
+                        overflow: hidden;
+                        .passW2, {
+                            width: 221px;
+                            height: 48px;
+                            border-right: 1px solid #fff;
+                        }
+                        a {
+                            float: left;
+                            height: 50px;
+                            width: 108px;
+                            line-height: 50px;
+                            text-align: center;
+                            font-size: 14px;
+                            color: #333;
+                            border: 1px solid #e0e0e0;
+                        }
+                    }
+                    
+                    .passW2 {
+                        margin-bottom: 12px;
+                    }
+                    
+                }
+                .redTip {
+                    display: none;
+                    text-align: left;
+                    height: 20px;
+                    color: #ff6700;
+                    span {
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        line-height: 14px;
+                        text-align: center;
+                        color: #fff;
+                        background-color: #ff6700;
+                        border-radius: 50%;
+                        margin-right: 4px;
+                    }
+                }
+                .login {
+                    margin-top: 12px;
+                    height: 50px;
+                    width: 348px;
+                    background-color: #ff6700;
+                    color: #fff;
+                    cursor: pointer;
+                    border: 1px solid #ff6700;
+                }
+                .login-method {
+                    color: #ff6700;
+                    line-height: 40px;
+                }
+                .register,.forget {
+                    line-height: 30px;
+                    color: #999999;
+                    &:hover {
+                        color: #ff6700;
+                    }
+                }
+                // 其他登陆方式
+                .other {
+                    margin-top: 145px;
+                    color: #bbbbbb;
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: relative;
+                        height: 1px;
+                        width: 132px;
+                        top: -6px;
+                        left: 214px;
+                        background-color: #e0e0e0;
+                    }
+                    &::before {
+                        content: '';
+                        display: block;
+                        position: relative;
+                        height: 1px;
+                        width: 132px;
+                        top: 10px;
+                        left: 0;
+                        background-color: #e0e0e0;
+                    }
+                }
+                img {
+                    width: 30px;
+                    height: 30px;
+                    margin:16px 16px 0 0;
+                }
+            }
+            // <!-- 扫码登录界面 -->
+            .Ma-message {
+                text-align: center;
+                display: none;
+                img {
+                    height: 180px;
+                    width: 180px;
+                    margin: 120px 0 15px 0;
+                }
+                p {
+                    line-height: 18px;
+                    color: #757575;
+                    span {
+                        color: #f75d17;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//页尾
+.footerWrap {
+    margin: 0 auto;
+    width: 1152px;
+    font-size: 12px;
+    color: #757575;
+    margin-top: 84px;
+    text-align: center;
+    span {
+        line-height: 54px;
+        cursor: pointer;
+        &:hover {
+            color: #333;
+        }
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    .spacer {
+        margin: 0 12px;
+    }
+}

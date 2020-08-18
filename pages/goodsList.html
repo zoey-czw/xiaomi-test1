@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/goodsList.css">
+</head>
+<body>
+    <!-- 导航栏+header (共用 商品列表/详情页) -->
+    <div class="common-header"></div>
+
+    <!-- 面包屑导航 -->
+    <div class="crumbsWrap">
+        <div class="crumbs">
+            <span><a href="./index.html">首页</a></span> &gt; 
+            <span><a href="#">全部结果</a></span> &gt; 
+            <span>车站充电器</span> &gt; 
+        </div>
+    </div>
+    <!-- 分类 -->
+    <div class="classifyWrap">
+        <div class="classify">
+            <div>
+                <span>分类：</span> <a href="#">全部</a> <a href="#">汽车商品</a>
+            </div>
+        </div>
+    </div>
+    <!-- 排序 -->
+    <div class="sortWrap">
+        <div class="sort clearfix">
+            <!-- 排序左边内容 -->
+            <div class="sortL">
+                <ul>
+                    <li class="storeAll current">综合</li>
+                    <li class="sort-spacer"></li>
+                    <li class="newSort">新品</li>
+                    <li class="sort-spacer"></li>
+                    <li class="saleSort">销量</li>
+                    <li class="sort-spacer"></li>
+                    <li class="priceSort">价格</li>
+                </ul>
+            </div>
+             <!-- 排序右边内容 -->
+             <div class="sortR">
+                <ul>
+                    <!-- 收货地址 -->
+                    <li class="address"><span>收货地</span> <span>北京 北京市</span>
+                        <!-- 收货地址隐藏内容 -->
+                        <div class="addressShow">
+                            <input type="text" value="输入街道、乡镇、小区或商圈名称" class="detailedAdrr">
+                            <p>手动选择地址</p>
+                            <div class="myAdress">我的收货地址</div>
+                            <div class="loginNow">现在 <a href="./index.html">登录</a>，可根据收货地址快速定位</div>
+                        </div>
+                    </li>
+                    <li><input type="checkbox" id="sale" class="sale"><label for="sale">促销</label></li>
+                    <li><input type="checkbox" id="stages" class="stages"><label for="stages">分期</label></li>
+                    <li><input type="checkbox" id="has" class="has"><label for="has">仅看有货</label></li>
+                </ul>
+             </div>
+        </div>
+        <!-- 排序商品 -->
+        <div class="store">
+            <ul>
+                <!-- <li>
+                    <a href="./goodsDetail.html">
+                        <img src="../image/goodlist-bigger5.jpg" alt="加载失败" class="bigImg">
+                        <p class="title">小米车载充电器快充版 银色</p>
+                        <p class="price">69元</p>
+                        <img src="../image/goodlist-bigger5.jpg" alt="加载失败" class="smallImg">
+                    </a>
+                </li> -->
+            </ul>
+            <div class="no-found">
+                <img src="../image/goodlist-6.png" alt="加载失败">
+                <p>对应筛查条件下没有找到商品，换个筛选条件吧</p>
+                <div class="resetChoose">重置筛选条件</div>
+            </div>
+        </div>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div class="guessWrap">
+        <div class="guess">
+            <div class="guess-top">猜你喜欢</div>
+            <div class="guess-btm">
+                <div class="guess-list">
+                    <ul>
+                        <!--<li>
+                            <img src="../image/guess10.jpg" alt="加载失败">
+                            <p class="guess-title">黑鲨游戏 Type-C 耳机</p>
+                            <p class="price">99元</p>
+                            <span>2890人好评</span>
+                            <div class="addCart">加入购物车</div>
+                        </li> -->
+                    </ul>
+                </div>
+                <!-- 圆点切换图片 -->
+                <div class="dot">
+                    <span class="current" index="0"></span>
+                    <span class="1" index="1"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer (页面公用部分)-->
+    <div class="common-footer"></div>
+
+    <script src="../script/jquery.js"></script>
+    <script src="../script/utils.js"></script>
+    <script src="../script/goodsList.js"></script>
+    <!-- <script src="../script/common.js"></script> -->
+    <script>
+        $.getScript('../script/common.js');//引入共用js
+    </script>
+</body>
+</html>

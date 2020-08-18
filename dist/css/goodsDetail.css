@@ -1,0 +1,263 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.stickyBoxWrap {
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 15px 1px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  z-index: 4;
+  top: 0; }
+  .stickyBoxWrap .stickyBox {
+    width: 1226px;
+    height: 63px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 63px; }
+    .stickyBoxWrap .stickyBox .sb-lfet {
+      font-size: 17px;
+      float: left; }
+    .stickyBoxWrap .stickyBox .sb-right {
+      color: #333;
+      font-size: 13px;
+      float: right; }
+
+.detail {
+  width: 1226px;
+  margin: 32px auto;
+  overflow: hidden; }
+
+.detail-l {
+  width: 560px;
+  position: relative;
+  float: left; }
+  .detail-l .detailShow {
+    width: 560px;
+    height: 560px; }
+    .detail-l .detailShow img {
+      position: absolute;
+      width: 560px;
+      height: 560px;
+      opacity: 0.2; }
+    .detail-l .detailShow img:nth-child(1) {
+      z-index: 2;
+      opacity: 1; }
+  .detail-l .turnL, .detail-l .turnR {
+    position: absolute;
+    z-index: 3;
+    width: 34px;
+    height: 72px;
+    font: 32px/72px "宋体";
+    color: #dcdcdc;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    top: 50%;
+    margin-top: -36px; }
+    .detail-l .turnL:hover, .detail-l .turnR:hover {
+      background-color: rgba(0, 0, 0, 0.8); }
+  .detail-l .turnL {
+    left: 0; }
+  .detail-l .turnR {
+    right: 0; }
+  .detail-l .dot {
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    width: 560px;
+    text-align: center; }
+    .detail-l .dot span {
+      display: inline-block;
+      width: 50px;
+      height: 3px;
+      background-color: #d6d6d6;
+      margin: 2px;
+      cursor: pointer; }
+      .detail-l .dot span:hover {
+        background-color: #a3a3a3; }
+    .detail-l .dot span:nth-child(1) {
+      background-color: #a3a3a3; }
+
+.detail-r {
+  width: 600px;
+  padding-left: 66px;
+  font-size: 13px;
+  float: right; }
+  .detail-r h1 {
+    line-height: 35px; }
+    .detail-r h1 img {
+      width: 50px;
+      height: 24px;
+      margin-top: -8px; }
+  .detail-r .detail-tip {
+    line-height: 24px;
+    color: #b0b0b0; }
+    .detail-r .detail-tip span:nth-child(1) {
+      color: #ff6700;
+      margin-right: 6px; }
+  .detail-r .xm {
+    color: #ff6700;
+    margin-top: 10px; }
+  .detail-r .allprice {
+    line-height: 34px; }
+    .detail-r .allprice .detail-price {
+      font-size: 18px;
+      color: #ff6700; }
+    .detail-r .allprice .detail-delete {
+      color: #b0b0b0;
+      margin-left: 8px; }
+  .detail-r hr {
+    margin: 15px 0 20px 0;
+    border-top: 1px solid #e0e0e0; }
+  .detail-r .address {
+    width: 518px;
+    height: 42px;
+    padding: 30px 30px 30px 50px;
+    line-height: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+    position: relative; }
+    .detail-r .address img {
+      position: absolute;
+      left: 23px; }
+    .detail-r .address span {
+      color: #ff6700;
+      cursor: pointer; }
+    .detail-r .address .address-stock {
+      color: #ff6700; }
+  .detail-r h2 {
+    font-size: 18px;
+    line-height: 48px; }
+  .detail-r .style-choose {
+    width: 600px; }
+    .detail-r .style-choose > ul {
+      overflow: hidden;
+      width: 620px; }
+      .detail-r .style-choose > ul li {
+        float: left;
+        width: 292px;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+        margin: 0 12px 10px 0;
+        color: #b0b0b0;
+        border: 1px solid #b0b0b0;
+        cursor: pointer; }
+        .detail-r .style-choose > ul li:hover {
+          color: #ff6700;
+          border: 1px solid #ff6700; }
+  .detail-r .detail-check {
+    width: 540px;
+    height: 84px;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #f9f9fa; }
+    .detail-r .detail-check > div {
+      overflow: hidden;
+      line-height: 34px;
+      color: #616161; }
+      .detail-r .detail-check > div .checkL {
+        float: left; }
+      .detail-r .detail-check > div .checkR {
+        float: right; }
+    .detail-r .detail-check > p {
+      line-height: 38px;
+      font-size: 24px;
+      margin-top: 18px;
+      color: #ff6700; }
+  .detail-r .addCart {
+    line-height: 54px;
+    font-size: 16px;
+    margin-top: 20px; }
+    .detail-r .addCart > a:nth-child(1) {
+      display: inline-block;
+      width: 300px;
+      height: 54px;
+      background-color: #ff6700;
+      color: #fff;
+      margin-right: 9px;
+      text-align: center; }
+      .detail-r .addCart > a:nth-child(1):hover {
+        background-color: #f25807; }
+    .detail-r .addCart > a:nth-child(2) {
+      display: inline-block;
+      width: 142px;
+      height: 54px;
+      background-color: #b0b0b0;
+      color: #fff;
+      text-align: center; }
+      .detail-r .addCart > a:nth-child(2):hover {
+        background-color: #757575; }
+  .detail-r .state {
+    margin-top: 18px;
+    color: #b0b2b4;
+    width: 600px; }
+    .detail-r .state > ul {
+      overflow: hidden;
+      width: 614px; }
+      .detail-r .state > ul li {
+        float: left;
+        line-height: 36px;
+        margin-right: 16px; }
+
+.mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  opacity: 0.2; }
+  .mask .addressShow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: 540px;
+    height: 309px;
+    padding: 42px;
+    text-align: center;
+    color: #b0b0b0;
+    margin: -184px 0 0 -300px; }
+    .mask .addressShow > input {
+      width: 520px;
+      height: 42px;
+      border: 1px solid #e0e0e0;
+      padding-left: 20px;
+      color: #333; }
+    .mask .addressShow p {
+      line-height: 44px;
+      text-align: right;
+      font-size: 14px;
+      cursor: pointer; }
+      .mask .addressShow p:hover {
+        color: #f75d17; }
+    .mask .addressShow .myAdress {
+      line-height: 34px;
+      text-align: left;
+      font-size: 14px; }
+    .mask .addressShow .loginNow {
+      color: #333;
+      margin-top: 20px; }
+      .mask .addressShow .loginNow a {
+        color: #f75d17; }
+    .mask .addressShow .close {
+      position: absolute;
+      top: 12px;
+      right: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      height: 30px;
+      line-height: 30px;
+      width: 30px;
+      border-radius: 50%; }
+      .mask .addressShow .close:hover {
+        background-color: #e53935;
+        color: #fff; }

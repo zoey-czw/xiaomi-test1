@@ -1,0 +1,14 @@
+[{"id":"0","hot":"99","price":"99元","stock":"12","new":"1","add":"0","stages":"0","title":"小米时尚真无线耳机",
+        "imgUrl":"../image/goodlist-bigger1.jpg"},
+
+    {"id":"1","hot":"85","price":"69元","stock":"0","new":"1","add":"0","stages":"0","title":"小米车载充电器快充版",
+        "imgUrl":"../image/goodlist-bigger5.jpg"},
+    
+    {"id":"2","hot":"185","price":"169元","stock":"92","new":"0","add":"1","stages":"0","title":"小米无线车充 黑色",
+        "imgUrl":"../image/goodlist-bigger3.jpg"},
+    
+    {"id":"3","hot":"15","price":"109元","stock":"52","new":"0","add":"0","stages":"a","title":"小米无线车充",
+        "imgUrl":"../image/goodlist-bigger2.jpg"},
+
+    {"id":"4","hot":"207","price":"49元","stock":"0","new":"0","add":"1","stages":"0","title":"小米车载充电器快充版（37W）",
+        "imgUrl":"../image/goodlist-bigger4.jpg"}]

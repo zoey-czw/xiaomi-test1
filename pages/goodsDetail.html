@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/goodsDetail.css">
+</head>
+<body>
+    <!-- 导航栏+header (共用 商品列表/详情页) -->
+    <div class="common-header"></div>
+    <!-- 粘性定位标题 （cookie数据）-->
+    <div class="stickyBoxWrap">
+        <div class="stickyBox">
+            <span class="sb-lfet"></span>
+            <a href="#" class="sb-right">用户评价</a>
+        </div>
+    </div>
+    <!-- 产品详情内容 -->
+    <div class="detailWrap">
+        <div class="detail">
+            <!-- 左侧轮播图 -->
+            <div class="detail-l">
+                <!-- 产品图片 -->
+                <div class="detailShow">
+                    <!-- <img src="../image/goodsDetail2-1.jpg" alt="加载失败">
+                    <img src="../image/goodsDetail2-2.jpg" alt="加载失败">
+                    <img src="../image/goodsDetail2-3.jpg" alt="加载失败">
+                    <img src="../image/goodsDetail2-4.jpg" alt="加载失败">
+                    <img src="../image/goodsDetail2-5.jpg" alt="加载失败"> -->
+                </div>
+                <!-- 翻页按钮 -->
+                <div class="turnL">&lt;</div>
+                <div class="turnR">&gt;</div>
+                <!-- 翻页圆点 -->
+                <div class="dot">
+                    <!-- <span idx = "0"></span>
+                    <span idx = "1"></span>
+                    <span idx = "2"></span>
+                    <span idx = "3"></span>
+                    <span idx = "4"></span> -->
+                </div>
+            </div>
+            <!-- 右侧信息详情 -->
+            <div class="detail-r">
+                <!-- 渲染标题 -->
+                <div class="message">
+                    <!-- <h1 class="detail-title"> <img src="../image/goodsDetail-logo.jpg" alt=""> 小米车载充电器快充版(37W)</h1>
+                    <p class="detail-tip"><span>单口27W</span><span> 快充/双口输出/多重安全保护</span></p>
+                    <p class="xm">小米自营</p>
+                    <p class="allprice"><span class="detail-price">109元</span><del class="detail-delete">129元</del></p>
+                    <hr/> -->
+                </div>
+                <!-- 地址 -->
+                <div class="address">
+                    <img src="../image/goodsDetail-icon.png" alt="加载失败">
+                    <p>北京 &nbsp;北京市  &nbsp;海定区  &nbsp;清河街道 <span class="correct"> &nbsp;修改</span></p>
+                    <p class="address-stock">有现货</p>
+                </div>
+                <!-- 款式选择 -->
+                <h2>选择颜色</h2>
+                <div class="style-choose">
+                    <ul>
+                        <!-- <li>无线版</li>
+                        <li>快充版</li> -->
+                    </ul>
+                </div>
+                <!-- 结算 (可以直接使用前面获取的值)-->
+                <div class="detail-check">
+                    <!-- <div>
+                        <p class="checkL">小米车载充电器快充版(37W) 黑色</p>
+                        <p class="checkR">109元</p>
+                    </div>
+                    <p>总计: 109元</p> -->
+                </div>
+                <!-- 加入购物车 -->
+                <div class="addCart">
+                    <a href="#">加入购物车</a>
+                    <a href="#">喜欢</a>
+                </div>
+                <!-- 条款申明 -->
+                <div class="state">
+                    <ul>
+                        <li><img src="../image/goodsDetail-icon2.png" alt="加载失败"> 小米自营</li>
+                        <li><img src="../image/goodsDetail-icon2.png" alt="加载失败"> 小米发货</li>
+                        <li><img src="../image/goodsDetail-icon2.png" alt="加载失败"> 7天无理由退货</li>
+                        <li><img src="../image/goodsDetail-icon2.png" alt="加载失败"> 运费说明</li>
+                        <li><img src="../image/goodsDetail-icon2.png" alt="加载失败"> 企业信息</li>
+                        <li><img src="../image/goodsDetail-icon2.png" alt="加载失败"> 售后服务政策</li>
+                        <li><img src="../image/goodsDetail-icon2.png" alt="加载失败"> 7天价格保护</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 收货地址隐藏内容 -->
+    <div class="mask">
+        <div class="addressShow">
+            <input type="text" value="输入街道、乡镇、小区或商圈名称" class="detailedAdrr">
+            <p class="selectAddr">手动选择地址 ></p>
+            <div class="myAdress">我的收货地址</div>
+            <div class="loginNow">现在 <a href="./login.html">登录</a>，可根据收货地址快速定位</div>
+            <div class="close">X</div>
+        </div>
+    </div>
+    
+
+    <!-- footer (页面公用部分)-->
+    <div class="common-footer"></div>
+
+    <script src="../script/jquery.js"></script>
+    <script src="../script/utils.js"></script>
+    <script src="../script/goodsDetail.js"></script>
+    <!-- <script src="../script/common.js"></script> -->
+    <script>
+        $.getScript('../script/common.js');//引入共用js
+    </script>
+</body>
+</html>

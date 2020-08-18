@@ -1,0 +1,34 @@
+
+[  {"id":"0","type":["黑色","绿色","金色"],
+    "0":{"price":"299 元","del":"499 元","stock":"12","title":"小米时尚真无线耳机 黑色",
+        "tip1":"","tip2":"高通芯片及蓝牙5.0技术 / 取出即连，左右任意切换 / 快充15分钟，使用3小时",
+        "imgUrl":["../image/goodsDetail3-1.jpg","../image/goodsDetail3-2.jpg","../image/goodsDetail3-3.jpg",
+                    "../image/goodsDetail3-4.jpg","../image/goodsDetail3-5.jpg"]},
+    "1":{"price":"289 元","del":"399 元","stock":"0","title":"小米时尚真无线耳机 绿色",
+        "tip1":"[热销]","tip2":"高通芯片及蓝牙5.0技术 / 取出即连，左右任意切换 / 快充15分钟，使用3小时",
+        "imgUrl":["../image/goodsDetail4-1.jpg","../image/goodsDetail4-2.jpg","../image/goodsDetail4-3.jpg"]},
+    "2":{"price":"389 元","del":"499 元","stock":"0","title":"小米时尚真无线耳机 金色",
+        "tip1":"[热销]","tip2":"高通芯片及蓝牙5.0技术 / 取出即连，左右任意切换 / 快充15分钟，使用3小时",
+        "imgUrl":["../image/goodsDetail7-1.jpg","../image/goodsDetail7-2.jpg","../image/goodsDetail7-3.jpg"]}},
+
+    {"id":"1","type":["黑色","白色"],
+    "0":{"price":"99 元","del":"","stock":"120","title":"小米车载充电器快充版1A1C 100W",
+        "tip1":"「雷总10周年发布会推荐！8月16日10点开启首卖！」","tip2":"USB-C 100W MAX 快充/USB-A,USB-C双口输出/环形炫彩灯效显示",
+        "imgUrl":["../image/goodsDetail5-1.jpg","../image/goodsDetail5-2.jpg","../image/goodsDetail5-3.jpg",
+                    "../image/goodsDetail5-4.jpg","../image/goodsDetail5-5.jpg"]},
+    "1":{"price":"69 元","del":"","stock":"10","title":"小米车载充电器快充版",
+        "tip1":"","tip2":"QC3.0双口输出/智能温度控制/兼容iOS&Android",
+        "imgUrl":["../image/goodsDetail6-1.jpg","../image/goodsDetail6-2.jpg","../image/goodsDetail6-3.jpg",
+                  "../image/goodsDetail6-4.jpg","../image/goodsDetail6-5.jpg","../image/goodsDetail6-6.jpg"]}},
+
+    {"id":"2","type":["无线版","有线版"],
+    "0":{"price":"109 元","del":"129 元","stock":"30","title":"小米无线车充通用快充版",
+        "tip1":"「小米10周年感恩节狂欢！8.16-8.18部分限时立省20元！」","tip2":"感应伸缩 | 单手操作 | 支持断电开取",
+        "imgUrl":["../image/goodsDetail1-1.jpg","../image/goodsDetail1-2.jpg","../image/goodsDetail1-3.jpg",
+                    "../image/goodsDetail1-4.jpg"]},
+    "1":{"price":"49 元","del":"","stock":"110","title":"小米车载充电器快充版（37W）",
+        "tip1":"","tip2":"单口27W 快充 / 双口输出 / 多重安全保护",
+        "imgUrl":["../image/goodsDetail2-1.jpg","../image/goodsDetail2-2.jpg","../image/goodsDetail2-3.jpg",
+                    "../image/goodsDetail2-4.jpg","../image/goodsDetail2-5.jpg"]}}
+                
+]
